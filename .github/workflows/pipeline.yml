@@ -5,8 +5,7 @@ name: DevOpsLab Pipeline
 on: 
   push:
     branches:
-      - 06-DevSecOps
-
+      - main
 jobs:
   Build:
     runs-on: ubuntu-latest
